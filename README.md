@@ -10,17 +10,17 @@ docker build -t procon-env .
 
 ## コマンド
 
-| コマンド                 | 説明                                                             |
-|----------------------|----------------------------------------------------------------|
-| `make up`            | コンテナ起動                                                         |
-| `make down`          | コンテナ停止                                                         |
-| `make new <target>`  | ファイル作成                                                         |
-| `make run [target]`  | 実行（省略時：`main.cpp`、`< file`で入力指定可）                              |
+| コマンド             | 説明                                                                     |
+|----------------------|--------------------------------------------------------------------------|
+| `make up`            | コンテナ起動                                                             |
+| `make down`          | コンテナ停止                                                             |
+| `make new <target>`  | ファイル作成                                                             |
+| `make run [target]`  | 実行（省略時：`main.cpp`、`< file`で入力指定可）                         |
 | `make test <target>` | テスト実行（[oj-tools](https://github.com/online-judge-tools/oj)を使用） |
 
-## ディレクトリ構造
+## ファイル構成
 
-```
+```text
 cpp/
 ├── src/
 │   ├── main.cpp
